@@ -1,0 +1,68 @@
+body { 
+    background-image: url('C:\arthi\Own 2048 game\image1.jpg'); /* Path to your background image */
+    background-size: cover; /* Makes the image cover the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    display: flex;
+    justify-content: center;
+    font-family: "Clear Sans", "Helvetica Neue";
+}
+  
+h1 {
+    font-size: 80px;
+    line-height: 0.7;
+    color: #0f0b06;
+    margin: 0px;
+}
+  
+.container {
+    width: 468px;
+    margin-top: 10px;
+}
+  
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+  
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 456px;
+    height: 456px;
+    background-color: #fd2779;
+    border: 7px solid #070300;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+  
+.grid div {
+    width: 100px;
+    height: 100px;
+    margin: 7px;
+    border-radius: 3px;
+    background-color: #e7ebe8;
+    color: #afa192;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    line-height: 1.6;
+}
+  
+.score-container {
+    text-align: center;
+    width: 70px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: #f35309;
+    color: #FFFFFF;
+}
+  
+#score {
+    font-size: 30px;
+}
+  
+.score-title {
+    font-size: 16px;
+}
